@@ -16,7 +16,6 @@
   /* width: 1440px; */
   gap: 10px;
   /* font-family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree); */
-  weight: 400;
 }
 .img_text {
   display: flex;
@@ -72,11 +71,21 @@
 .boutn .btn1 {
   background-color: hsl(171, 66%, 44%);
   border: none;
+  cursor: pointer;
+}
+
+.boutn .btn1:hover {
+  box-shadow: rgba(103, 152, 129, 0.15) 0px 5px 15px 0px;
 }
 
 .boutn .btn2 {
   background-color: hsl(233, 100%, 69%);
   border: none;
+  cursor: pointer;
+}
+
+.boutn .btn2:hover {
+  box-shadow: rgba(56, 49, 94, 0.15) 0px 5px 15px 0px;
 }
 
 /* justy font color and size */
@@ -348,11 +357,21 @@
 .boutn1 .btn3 {
   background-color: hsl(171, 66%, 44%);
   border: none;
+  cursor: pointer;
+}
+
+.boutn .btn3:hover {
+  box-shadow: rgba(44, 87, 60, 0.15) 0px 5px 15px 0px;
 }
 
 .boutn1 .btn4 {
   background-color: hsl(233, 100%, 69%);
   border: none;
+  cursor: pointer;
+}
+
+.boutn .btn4:hover {
+  box-shadow: rgba(130, 98, 194, 0.15) 0px 5px 15px 0px;
 }
 
 /* justif fotter */
