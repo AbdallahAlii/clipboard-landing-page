@@ -1,0 +1,381 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* header {
+  background-image: url("/images/bg-header-desktop.png");
+  background-size: cover;
+  height: 300px;
+} */
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  /* width: 1440px; */
+  gap: 10px;
+  /* font-family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree); */
+  weight: 400;
+}
+.img_text {
+  display: flex;
+  justify-content: center;
+}
+.content h1 {
+  font-size: 35px;
+}
+
+.contair {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.content h5 {
+  width: 400px;
+}
+
+.contair img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+/* seting up the buttons */
+
+.contair .boutn button {
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+.contair .boutn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.boutn .btn1 {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+}
+
+.boutn .btn2 {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+}
+
+/* justy font color and size */
+.content h5 {
+  color: hsl(210, 10%, 33%);
+}
+
+.tracker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  align-items: center;
+  gap: 20px;
+}
+.tracker p {
+  width: 600px;
+  color: hsl(210, 10%, 33%);
+}
+
+/* aligment the pc and its text */
+
+.img-txt {
+  display: flex;
+  justify-content: center;
+
+  /* justify-content: space-between; */
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: flex-start; */
+  gap: 70px;
+}
+
+.img-txt img {
+  width: 400px;
+  height: 300px;
+  padding-top: 60px;
+}
+
+.img-txt .text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* justify the access clipboard */
+.acc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.contair {
+  background-image: url("./images/bg-header-desktop.png");
+  width: auto;
+}
+.ss {
+  display: flex;
+  justify-content: center;
+}
+
+.text h5 {
+  width: 200px;
+}
+.acc .txt3 h5 {
+  display: flex;
+  margin-top: 10px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  color: hsl(210, 10%, 33%);
+}
+
+.phone img {
+  width: 500px;
+}
+
+/* applying Supercharge your workflow */
+
+.sup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sup span {
+  color: hsl(210, 10%, 33%);
+}
+
+.black_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+/* resize the black list 1 */
+.black_list .b1 {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.b1 img {
+  width: 50px;
+}
+
+.b1 .create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+/* resize the black list 1 */
+
+.black_list .b2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b2 img {
+  width: 50px;
+}
+
+.b2 .plain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  gap: 10px;
+}
+
+/* resize the black list 1 */
+
+.black_list .b3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b3 img {
+  width: 50px;
+}
+
+.b3 .sneak {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* justiy logs */
+
+.logs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 90px;
+  padding-right: 90px;
+
+  margin-top: 50px;
+}
+
+.google {
+  width: 300px;
+}
+
+.google img {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* width: 310px; */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.ibm {
+  width: 300px;
+}
+
+.ibm img {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* width: 310px; */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.mic {
+  width: 300px;
+}
+
+.mic img {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* width: 310px; */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.hewlet {
+  width: 300px;
+}
+
+.hewlet img {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* width: 310px; */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* cliboard */
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+/* seting up the buttons */
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 90px;
+}
+
+.content2 button {
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+.content2 span {
+  width: 500px;
+  color: hsl(210, 10%, 33%);
+}
+
+.boutn1 .btn3 {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+}
+
+.boutn1 .btn4 {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+}
+
+/* justif fotter */
+.fotter {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  background-color: azure;
+  margin-top: 90px;
+}
+
+.log2 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.imgs img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px 0px 5px;
+}
